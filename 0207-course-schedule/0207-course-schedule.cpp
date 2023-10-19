@@ -19,7 +19,7 @@ public:
     
     void dfs(int i)
     {
-        if(traverse[i] == true)
+        if(traverse[i] == true || !ans)
             return;
         
         if(vis.find(i) != vis.end())
