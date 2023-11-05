@@ -2,6 +2,13 @@ class Solution {
 public:
     int getWinner(vector<int>& arr, int k)
     {
+        auto fastio=[]()  {
+            std::ios::sync_with_stdio(false);
+            cin.tie(nullptr);
+            cout.tie(nullptr);
+            return nullptr;
+        }();
+        
         unordered_map<int,int> score;
         
         int n = arr.size();
