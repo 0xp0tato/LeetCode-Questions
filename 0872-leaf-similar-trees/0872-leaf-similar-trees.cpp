@@ -19,14 +19,6 @@ public:
         solve(root1, l1);
         solve(root2, l2);
         
-        for(auto x: l1)
-            cout<<x<<" ";
-        
-        cout<<endl;
-        
-        for(auto x: l2)
-            cout<<x<<" ";
-        
         return l1 == l2;
         
     }
