@@ -14,7 +14,7 @@ public:
 
         for (int c1 = 0; c1 < n; c1++) {
             for (int c2 = c1; c2 < n; c2++) {
-                std::unordered_map<int, int> map;
+                unordered_map<int, int> map;
                 map[0] = 1;
                 int sum = 0;
 
