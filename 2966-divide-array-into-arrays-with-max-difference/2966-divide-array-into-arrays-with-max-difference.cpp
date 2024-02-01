@@ -13,7 +13,7 @@ public:
             int s = nums[i+1];
             int t = nums[i+2];
             
-            if(s-f <= k and t-s <= k and t-f <= k)
+            if(t-f <= k)
                 ans.push_back({f,s,t});
             
             else return {};
