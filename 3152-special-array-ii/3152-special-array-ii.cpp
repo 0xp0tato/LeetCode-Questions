@@ -2,6 +2,9 @@ class Solution {
 public:
     vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries)
     {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+        
         int n = nums.size();
         vector<int> pref(n, 0);
         
