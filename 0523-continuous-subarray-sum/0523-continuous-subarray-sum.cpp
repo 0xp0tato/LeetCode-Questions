@@ -8,12 +8,9 @@ public:
         for (int i = 0; i < nums.size(); i++) {
             prefixMod = (prefixMod + nums[i]) % k;
 
-            if (modSeen.find(prefixMod) != modSeen.end()) {
-                // ensures that the size of subarray is atleast 2
-                if (i - modSeen[prefixMod] > 1) {
+            if (modSeen.find(prefixMod) != modSeen.end() and i - modSeen[prefixMod] > 1) {
                     return 1;
-                }
-            } else {
+            } if(modSeen.find(prefixMod) == modSeen.end()) {
                 // mark the value of prefixMod with the current index.
                 modSeen[prefixMod] = i;
             }
