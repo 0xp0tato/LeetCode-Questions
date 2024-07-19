@@ -2,6 +2,10 @@ class Solution {
 public:
     vector<int> luckyNumbers (vector<vector<int>>& matrix)
     {
+        ios::sync_with_stdio(0);
+        cin.tie(0);
+        cout.tie(0);
+        
         unordered_set<int> minis;
         
         int m = matrix.size();
