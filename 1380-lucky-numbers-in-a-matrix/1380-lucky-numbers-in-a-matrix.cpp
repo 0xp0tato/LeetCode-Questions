@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> luckyNumbers (vector<vector<int>>& matrix)
     {
-        unordered_map<int,int> minis;
+        unordered_set<int> minis;
         
         int m = matrix.size();
         int n = matrix[0].size();
@@ -10,7 +10,7 @@ public:
         for(int i=0;i<m;i++)
         {
             int mn = *min_element(matrix[i].begin(), matrix[i].end());
-            minis[mn]++;
+            minis.insert(mn);
         }
         
         vector<int> ans;
