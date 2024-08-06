@@ -2,6 +2,8 @@ class Solution {
 public:
     int minimumPushes(string word)
     {
+        ios_base::sync_with_stdio(false);
+        cin.tie(nullptr);
         unordered_map<char,int> freq;
         
         for(char c: word) freq[c]++;
