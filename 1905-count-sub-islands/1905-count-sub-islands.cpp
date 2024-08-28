@@ -5,6 +5,9 @@ public:
     int n;
     int countSubIslands(vector<vector<int>>& grid1, vector<vector<int>>& grid2)
     {
+        std::ios::sync_with_stdio(false);
+        std::cin.tie(nullptr);
+        std::cout.tie(nullptr);
         m = grid1.size();
         n = grid1[0].size();
         
