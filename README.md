@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [1293-three-consecutive-odds](https://github.com/0xp0tato/LeetCode-Questions/tree/master/1293-three-consecutive-odds) |
 | [1656-count-good-triplets](https://github.com/0xp0tato/LeetCode-Questions/tree/master/1656-count-good-triplets) |
 | [2262-solving-questions-with-brainpower](https://github.com/0xp0tato/LeetCode-Questions/tree/master/2262-solving-questions-with-brainpower) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/0xp0tato/LeetCode-Questions/tree/master/2527-count-subarrays-with-fixed-bounds) |
